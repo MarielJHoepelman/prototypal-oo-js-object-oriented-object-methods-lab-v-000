@@ -19,6 +19,10 @@ BoardMember.prototype.veto = function() {
   return "No, I must disagree"
 }
 
+BoardMember.prototype.doCharity = function() {
+  return "I like to help people."
+}
+
 BoardMember.prototype.approve = function() {
   return "You can do that!"
 }
