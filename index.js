@@ -2,7 +2,7 @@ function BoardMember(name, homeState, training) {
   this.name = name;
   this.homeState = homeState;
   this.training = training;
-  
+
   this.doCharity = function() {
     return "I like to help people."
   }
@@ -20,5 +20,5 @@ BoardMember.prototype.veto = function() {
 }
 
 BoardMember.prototype.approve = function() {
-  eturn "You can do that!"
+  return "You can do that!"
 }
