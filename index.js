@@ -26,3 +26,7 @@ BoardMember.prototype.doCharity = function() {
 BoardMember.prototype.approve = function() {
   return "You can do that!"
 }
+
+BoardMember.prototype.releasePressStatement = function() {
+  return "You will see great things from Scuber."
+}
