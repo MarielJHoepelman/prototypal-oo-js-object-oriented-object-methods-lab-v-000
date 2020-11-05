@@ -5,7 +5,7 @@ function boardMember(name, homeState, training) {
 
   // veto — returns No, I must disagree
 
-  this.veto = function(){
-    return "No, I must disagree"
-  }
+  // this.veto = function(){
+  //   return "No, I must disagree"
+  // }
 }
