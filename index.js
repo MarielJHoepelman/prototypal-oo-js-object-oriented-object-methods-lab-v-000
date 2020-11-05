@@ -23,7 +23,7 @@ BoardMember.prototype.doCharity = function() {
   return "I like to help people."
 }
 
-BoardMember.prototype.sayHi = function() {
+BoardMember.prototype.doCharity = function() {
   return "I like to help people."
 }
 
